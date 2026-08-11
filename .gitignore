@@ -1,0 +1,31 @@
+node_modules/
+.env
+.env.local
+dist/
+build/
+
+# backend
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/logs/
+
+# ML
+ML/.venv/
+ML/__pycache__/
+ML/**/__pycache__/
+ML/checkpoints/*
+!ML/checkpoints/.gitkeep
+ML/data/*.jsonl
+ML/*.egg-info/
+
+# ML-local
+ML-local/.venv/
+ML-local/__pycache__/
+ML-local/**/__pycache__/
+ML-local/*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
